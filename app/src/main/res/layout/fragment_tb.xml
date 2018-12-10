@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aust.narddevs.knowyourhealth.Fragments.TBFrag"
+    android:background="#1d6430">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#112e5b"
+        android:layout_margin="20sp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TUBERCULOSIS"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#dcbfbf"
+            />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#e7e9e8"
+                android:text="@string/TBinfo"
+                android:layout_marginTop="20sp"
+                />
+
+        </ScrollView>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

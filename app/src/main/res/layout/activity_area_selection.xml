@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_area_selection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/map"
+    tools:context="com.aust.narddevs.knowyourhealth.AreaSelectionActivity">
+
+
+    <TextView
+        android:id="@+id/divslt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Division:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100sp"
+        android:textColor="#07eadf"
+        />
+
+    <Spinner
+        android:id="@+id/divspin"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/divslt"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="103sp"
+        android:layout_marginStart="5sp"
+        android:background="#fff"
+        >
+    </Spinner>
+
+    <TextView
+        android:id="@+id/disslt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your District:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#07eadf"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/divspin"
+        android:layout_marginTop="100sp"
+        />
+    
+    <Spinner
+        android:id="@+id/disspin"
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:layout_toRightOf="@id/disslt"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/divspin"
+        android:layout_marginTop="103sp"
+        android:layout_marginStart="5sp"
+        android:background="#fff"
+        >
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/areaslt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Area:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#07eadf"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/disspin"
+        android:layout_marginTop="100sp"
+        />
+
+    <Spinner
+        android:id="@+id/areaspin"
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:layout_toRightOf="@id/areaslt"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/disspin"
+        android:layout_marginTop="103sp"
+        android:layout_marginStart="5sp"
+        android:background="#fff"
+        >
+    </Spinner>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/areaslt"
+        android:layout_marginTop="60sp"
+        android:textColor="#eae4e4"
+        android:background="#18d25f"
+        android:text="search"
+        android:textSize="20dp"
+        android:onClick="search"
+        />
+
+</RelativeLayout>

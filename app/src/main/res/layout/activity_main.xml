@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/screen1"
+    tools:context="com.aust.narddevs.knowyourhealth.MainActivity">
+
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="When it's Urgent"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="50sp"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="400sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:text="When it's a matter of life and death,you can easily reach out for help in just press of a button"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/skipbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SKIP"
+            android:padding="20sp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="8sp"
+            android:background="@android:color/transparent"
+            android:onClick="skp"
+
+
+            />
+
+        <Button
+            android:id="@+id/nxtbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:textSize="20sp"
+            android:layout_marginLeft="220sp"
+            android:padding="20sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="8sp"
+            android:background="@android:color/transparent"
+            android:onClick="nxt"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

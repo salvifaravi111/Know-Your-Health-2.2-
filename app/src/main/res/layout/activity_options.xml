@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_options"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#103a45"
+    android:orientation="vertical"
+    tools:context="com.aust.narddevs.knowyourhealth.OptionsActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/emergency2"
+        android:layout_gravity="center"
+        android:layout_marginTop="60sp"
+        android:onClick="emgCall"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press the above button to get help"
+        android:textSize="30dp"
+        android:layout_marginTop="20sp"
+        android:textColor="#ffff"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emergency Button Setup"
+        android:textColor="#060606"
+        android:layout_marginTop="30sp"
+        android:textSize="20dp"
+        android:background="#fff"
+        android:onClick="emerInput"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOSPITAL INFO"
+        android:textColor="#060606"
+        android:background="#fff"
+        android:layout_marginTop="30sp"
+        android:textSize="20dp"
+        android:onClick="hosInfo"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I want to know more.."
+        android:textSize="20dp"
+        android:textColor="#020202"
+        android:background="#fff"
+        android:layout_marginTop="30sp"
+        android:onClick="knwMore"
+        />
+
+</LinearLayout>

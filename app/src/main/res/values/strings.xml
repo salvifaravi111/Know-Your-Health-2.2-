@@ -1,0 +1,222 @@
+<resources>
+    <string name="app_name">Know Your Health</string>
+
+    <string name="hospital">Enter your location,find hospitals near you..As simple as that!</string>
+    <string name="question">Take some fun in learning about health scenarios by accepting a quiz challenge or just read it out
+    like a mature man,choice is yours!
+    </string>
+    <string name="OpenDrawer">Open</string>
+    <string name="CloseDrawer">Close</string>
+    <string name="Number">Nothing to Display</string>
+    <string name="PrefKey">ForInput</string>
+
+    <string-array name="divisions">
+
+        <item>Barisal</item>
+        <item>Chittagong</item>
+        <item>Dhaka</item>
+        <item>Khulna</item>
+        <item>Mymensingh</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+        <item>Sylhet</item>
+
+    </string-array>
+
+
+    <string-array name="BarisalDiv">
+
+        <item>Barguna</item>
+        <item>Barisal</item>
+        <item>Bhola</item>
+        <item>Jhalokati</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+
+    </string-array>
+
+    <string-array name="ChittagongDiv">
+
+        <item>Bandarban</item>
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Chittagong</item>
+        <item>Comilla</item>
+        <item>Coxs Bazar</item>
+        <item>Feni</item>
+        <item>Khagrachhari</item>
+        <item>Laksmipur</item>
+        <item>Noakhali</item>
+        <item>Rangamati</item>
+
+    </string-array>
+
+    <string-array name="DhakaDiv">
+
+        <item>Dhaka</item>
+        <item>Faridpur</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Kishoreganj</item>
+        <item>Madaripur</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
+        <item>Tangail</item>
+
+    </string-array>
+
+    <string-array name="KhulnaDiv">
+
+        <item>Bagerhat</item>
+        <item>Chuadanga</item>
+        <item>Jessore</item>
+        <item>Jhenaidah</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Magura</item>
+        <item>Meherpur</item>
+        <item>Narail</item>
+        <item>Satkhira</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
+        <item>Tangail</item>
+
+    </string-array>
+
+    <string-array name="MymensinghDiv">
+
+        <item>Jamalpur</item>
+        <item>Mymensingh</item>
+        <item>Netrakona</item>
+        <item>Sherpur</item>
+
+    </string-array>
+
+    <string-array name="RajshahiDiv">
+
+        <item>Bogra</item>
+        <item>Joypurhat</item>
+        <item>Naogaon</item>
+        <item>Natore</item>
+        <item>Chapainawabganj</item>
+        <item>Pabna</item>
+        <item>Rajshahi</item>
+        <item>Sirajganj</item>
+
+
+    </string-array>
+
+    <string-array name="RangpurDiv">
+
+        <item>Dinajpur</item>
+        <item>Gaibandha</item>
+        <item>Kurigram</item>
+        <item>Lalmanirhat</item>
+        <item>Nilphamari</item>
+        <item>Panchagarh</item>
+        <item>Rangpur</item>
+        <item>Thakurgaon</item>
+
+    </string-array>
+
+
+    <string-array name="SylhetDiv">
+
+        <item>Habiganj</item>
+        <item>Moulvibazar</item>
+        <item>Sumanganj</item>
+        <item>Sylhet</item>
+
+    </string-array>
+
+    <string-array name="DhakaDis">
+        <item>Kalampur</item>
+        <item>Shimuliya</item>
+        <item>Madhabpur</item>
+        <item>Dhamrai</item>
+        <item>Baipayl</item>
+        <item>Ashulia</item>
+        <item>Savar</item>
+        <item>Uttara</item>
+        <item>Hemayetpur</item>
+        <item>Gabtoli</item>
+        <item>Mirpur</item>
+        <item>Bashundhara</item>
+        <item>Gulshan</item>
+        <item>Mohakhali</item>
+        <item>Badda</item>
+        <item>Khilgaon</item>
+        <item>Tejgaon</item>
+        <item>Dhanmondi</item>
+        <item>Hazratpur</item>
+        <item>Motijheel</item>
+        <item>Nawabganj</item>
+        <item>Dohar</item>
+        <item>Kartikpur</item>
+        <item>Keraniganj</item>
+        <item>Ruhitpur</item>
+        <item>Kalakandi</item>
+        <item>Chanpara</item>
+        <item>Noyapara</item>
+    </string-array>
+
+    <string-array name="Diseases">
+
+        <item>Home</item>
+        <item>TB</item>
+        <item>High Blood Pressure</item>
+        <item>Diabetes</item>
+        <item>Fever</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+   <string name="BPinfo">
+       Blood pressure (BP) is the pressure of circulating blood on the walls of blood vessels. When used without further specification, "blood pressure" usually refers to the arterial pressure in the systemic circulation. Blood pressure is usually expressed in terms of the systolic (maximum during one heart beat) pressure over diastolic (minimum in between two heart beats) pressure and is measured in millimeters of mercury (mmHg), above the surrounding atmospheric pressure (considered to be zero for convenience).
+
+It is one of the vital signs, along with respiratory rate, heart rate, oxygen saturation, and body temperature. Normal resting blood pressure in an adult is approximately 120 mmHg systolic, and 80 mmHg diastolic, abbreviated "120/80 mmHg".
+
+Blood pressure that is low due to a disease state is called hypotension, and pressure that is consistently high is hypertension. Both have many causes which can range from mild to severe. Both may be of sudden onset or of long duration. Long term hypertension is a risk factor for many diseases, including heart disease, stroke and kidney failure. Long term hypertension is more common than long term hypotension in Western countries. Long term hypertension often goes undetected because of infrequent monitoring and the absence of symptoms.
+
+   </string>
+
+   <string name="TBinfo">
+       Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis (MTB). Tuberculosis generally affects the lungs, but can also affect other parts of the body. Most infections do not have symptoms in which case it is known as latent tuberculosis. About 10 percent of latent infections progress to active disease which, if left untreated, kills about half of those infected. The classic symptoms of active TB are a chronic cough with blood-containing sputum, fever, night sweats, and weight loss. The historical term consumption came about due to the weight loss. Infection of other organs can cause a wide range of symptoms.
+
+Tuberculosis is spread through the air when people who have active TB in their lungs cough, spit, speak, or sneeze. People with latent TB do not spread the disease. Active infection occurs more often in people with HIV/AIDS and in those who smoke. Diagnosis of active TB is based on chest X-rays, as well as microscopic examination and culture of body fluids. Diagnosis of latent TB relies on the tuberculin skin test (TST) or blood tests.
+
+Onethird of the worlds population is thought to be infected with TB. New infections occur in about 1 percent of the population each year. In 2014, there were 9.6 million cases of active TB which resulted in 1.5 million deaths. More than 95 percent of deaths occurred in developing countries. The number of new cases each year has decreased since 2000. About 80% of people in many Asian and African countries test positive while 5 to 10 percent of people in the United States population tests positive by the tuberculin test. Tuberculosis has been present in humans since ancient times.
+
+   </string>
+
+    <string name="FeverInfo">
+        Fever, also known as pyrexia and febrile response, is defined as having a temperature above the normal range due to an increase in the bodys temperature set-point. There is not a single agreed-upon upper limit for normal temperature with sources using values between 37.5 and 38.3 degree Celsius (99.5 and 100.9 degree Fahrenheit). The increase in set-point triggers increased muscle contraction and causes a feeling of cold. This results in greater heat production and efforts to conserve heat. When the set-point temperature returns to normal, a person feels hot, becomes flushed, and may begin to sweat. Rarely a fever may trigger a febrile seizure. This is more common in young children. Fevers do not typically go higher than 41 to 42 degree Celsius (105.8 to 107.6 degree Fahrenheit).
+
+A fever can be caused by many medical conditions ranging from the not serious to potentially serious. This includes viral, bacterial and parasitic infections such as the common cold, urinary tract infections, meningitis, malaria and appendicitis among others. Non-infectious causes include vasculitis, deep vein thrombosis, side effects of medication, and cancer among others.
+
+Fever is one of the most common medical signs. It is part of about 30 percent of healthcare visits by children and occurs in up to 75 percent of adults who are seriously sick. While fever is a useful defense mechanism, treating fever does not appear to worsen outcomes. Fever is viewed with greater concern by parents and healthcare professionals than it usually deserves, a phenomenon known as fever phobia.
+
+Children under 3 months of age with a temperature of 100.4 degree Fahrenheit (38.0 degree Celsius) or greater should be seen by a health-care professional. They may be quite ill and not show any signs or symptoms besides a fever. Infants younger than 6 weeks of age should be seen immediately by their doctor.
+
+    </string>
+
+    <string name="DiaInfo">
+        Diabetes mellitus (DM), commonly referred to as diabetes, is a group of metabolic diseases in which there are high blood sugar levels over a prolonged period. Symptoms of high blood sugar include frequent urination, increased thirst, and increased hunger. If left untreated, diabetes can cause many complications. Acute complications can include diabetic ketoacidosis, nonketotic hyperosmolar coma, or death. Serious long-term complications include heart disease, stroke, chronic kidney failure, foot ulcers, and damage to the eyes.
+
+Diabetes is due to either the pancreas not producing enough insulin or the cells of the body not responding properly to the insulin produced. There are three main types of diabetes mellitus:
+
+    Type 1 DM results from the pancreasss failure to produce enough insulin. This form was previously referred to as insulin-dependent diabetes mellitus (IDDM) or juvenile diabetes. The cause is unknown.
+    Type 2 DM begins with insulin resistance, a condition in which cells fail to respond to insulin properly. As the disease progresses a lack of insulin may also develop. This form was previously referred to as non insulin-dependent diabetes mellitus (NIDDM) or adult-onset diabetes. The most common cause is excessive body weight and not enough exercise.
+    Gestational diabetes is the third main form and occurs when pregnant women without a previous history of diabetes develop high blood-sugar levels.
+As of 2015, an estimated 415 million people had diabetes worldwide, with type 2 DM making up about 90 percent of the cases. This represents 8.3 percent of the adult population, with equal rates in both women and men. As of 2014, trends suggested the rate would continue to rise. Diabetes at least doubles a persons risk of early death. From 2012 to 2015, approximately 1.5 to 5.0 million deaths each year resulted from diabetes. The global economic cost of diabetes in 2014 was estimated to be US$612 billion. In the United States, diabetes cost $245 billion in 2012.
+
+    </string>
+
+</resources>

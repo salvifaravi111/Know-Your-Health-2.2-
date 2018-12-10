@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_emergencyinput"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bulb"
+
+    tools:context="com.aust.narddevs.knowyourhealth.EmergencyinputActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Current Emergency Number is:"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        android:layout_marginTop="60sp"
+        />
+
+
+    <EditText
+        android:id="@+id/numEmrg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textSize="40sp"
+        android:textColor="#0ecea4"
+        android:layout_marginTop="20dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change"
+        android:background="#05ec5e"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="60sp"
+        android:onClick="chngNum"
+        />
+
+    <Button
+        android:id="@+id/savenum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:background="#05ec46"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="60sp"
+        android:enabled="false"
+        android:visibility="invisible"
+        android:onClick="savNum"
+        />
+
+
+</LinearLayout>
